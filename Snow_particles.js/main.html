@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snow Fall Test For the ONE</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .headline {
+        color: pink;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 45px;
+        transform: translate(-50%, -50%);
+      }
+      .particles-js {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(255, 0, 0, 0.7)
+          ),
+          url("css_box_model_4parts_margin.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <div id="particles-js">
+      <h1 class="headline">PARTICLE PARTICLE.JS</h1>
+    </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
